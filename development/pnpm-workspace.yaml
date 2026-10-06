@@ -1,0 +1,11 @@
+packages:
+  - "repos/payz-sdk"
+  - "repos/payz-core"
+
+catalog:
+  "@tanstack/react-query": ^5.90.21
+  "@types/react": ^19.2.0
+  typescript: ^5.9.3
+
+onlyBuiltDependencies:
+  - esbuild
